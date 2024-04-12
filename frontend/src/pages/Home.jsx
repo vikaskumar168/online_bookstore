@@ -27,9 +27,9 @@ const Home = () => {
         <div className="flex justify-between items-center">
           <h1 className="text-3xl my-8">Books List</h1>
           <Link to="/books/create">
-          <button className="text-2xl hover:text-yellow-500 text-blue-400">
-                        Create Book
-                      </button>
+            <button className="text-2xl hover:text-yellow-500 text-blue-400">
+              Create Book
+            </button>
           </Link>
         </div>
         {loading ? (

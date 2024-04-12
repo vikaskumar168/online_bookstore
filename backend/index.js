@@ -9,7 +9,7 @@ const app = express();
 //Middleware for parsing request body
 app.use(express.json());
 app.get("/", (request, response) => {
-  console.log(request);
+  // console.log(request);
   response.status(234).send("My First MERN Stack Project");
 });
 
